@@ -11,16 +11,24 @@ Storm: #112432 | Jean: #5e7783 | Royalty: #4d1635 | Lavender: #9e9199 | Soft Gre
 img {
   width: 100%;
 }
+a {
+  color: #FBF3DA;
+  text-decoration: none; /* No underlining */
+}
 
-header
-{
-  background-color: #555555;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+a:visited { /* visited link */
   color: #FBF3DA;
 }
+a:hover {
+  color: #FFCE45;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+a:focus {
+  color: #FFCE45;
+  text-decoration: underline;
+}
+
 body {
   background-color: #8DB6B9;
   font-family: 'Oswald', sans-serif;
@@ -41,41 +49,11 @@ h2, h3 {
   font-size: 24px;
   font-weight: 700;
 }
-
 p {
 line-height: 1.4;
 font-size: 20px;
 font-weight: 300;
 }
-
-footer
-{
-  background-color: #4C4C6D;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #FBF3DA;
-}
-
-a {
-  color: #FBF3DA;
-  text-decoration: none; /* No underlining */
-}
-
-a:visited { /* visited link */
-  color: #FBF3DA;
-}
-a:hover {
-  color: #FFCE45;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
-
-a:focus {
-  color: #FFCE45;
-  text-decoration: underline;
-}
-
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #4C4C6D;
@@ -104,9 +82,25 @@ a:focus {
 
 .button.contact:hover {
   background-color: #FFCE45;
-  color: #55555;
+  color: #555555;
 }
 .button.contact:active {
   background-color: #FFCE45;
-  color: #55555;
+  color: #555555;
+}
+header
+{
+  background-color: #555555;
+  color: #FBF3DA;
+}
+
+
+footer
+{
+  background-color: #4C4C6D;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #FBF3DA;
 }
