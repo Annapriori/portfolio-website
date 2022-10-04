@@ -1,4 +1,23 @@
+/* Project Meta */
 
+/* reset  */
+
+/* general */
+
+/* typography */
+
+/* grid */
+
+/* header */
+
+/* footer */
+
+/* Page template A */
+
+/* Page template B */
+
+/* Media Queries */
+/* Layout styling */
 /*
 Colors used:
 Primary Color (blue): #8DB6B9;
@@ -8,6 +27,19 @@ Text (dark): #1B2021
 Text (light): #FBF3DA
 Storm: #112432 | Jean: #5e7783 | Royalty: #4d1635 | Lavender: #9e9199 | Soft Grey: #d0d1d3;
 */
+#hero {
+  background-color: #8DB6B9;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+#hero h2 {
+  text-align: center; /* Centers text */
+}
+
 img {
   width: 100%;
 }
@@ -28,7 +60,9 @@ a:focus {
   color: #FFCE45;
   text-decoration: underline;
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #8DB6B9;
   font-family: 'Oswald', sans-serif;
@@ -53,6 +87,24 @@ p {
 line-height: 1.4;
 font-size: 20px;
 font-weight: 300;
+}
+.intro {text-align: center;}
+
+.copyright {text-align: center;
+}
+
+.logo {
+  max-width: 52px;
+}
+.icon {
+  max-width: 32px;
+}
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -90,10 +142,36 @@ font-weight: 300;
 }
 header
 {
+  text-align: center;
   background-color: #555555;
+  color: #FBF3DA;
+  padding: 10px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 40px;
+  font-weight: 400;
   color: #FBF3DA;
 }
 
+nav > ul > li > a:hoover {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FFCE45;
+}
+
+nav > ul > li > a:active {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FBF3DA;
+}
 
 footer
 {
