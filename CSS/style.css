@@ -25,8 +25,9 @@ Secondary Color (dark gray): #555555;
 Accent Color (dark velvet): #4C4C6D; yellow (hoover state) FFCE45;
 Text (dark): #1B2021
 Text (light): #FBF3DA
-Storm: #112432 | Jean: #5e7783 | Royalty: #4d1635 | Lavender: #9e9199 | Soft Grey: #d0d1d3;
+
 */
+
 #hero {
   background-color: #8DB6B9;
    margin: 0;
@@ -69,6 +70,8 @@ a:focus {
 * {
   box-sizing: border-box;
 }
+html {scroll-behavior: smooth;
+}
 body {
   background-color: #8DB6B9;
   font-family: 'Oswald', sans-serif;
@@ -96,6 +99,29 @@ p {
 line-height: 1.4;
 font-size: 20px;
 font-weight: 300;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li > a {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FBF3DA;
+  display: inline-block;
+}
+
+nav > ul > li > a:hoover {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FFCE45;
+}
+
+nav > ul > li > a:active {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FBF3DA;
 }
 .intro {text-align: center;}
 
@@ -171,30 +197,7 @@ box-shadow: 0px 2px 7px 0px rgba(85, 85, 85, 1);
   width: 100%;
 }
 
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
-}
-nav > ul > li > a {
-  padding: 0 40px;
-  font-weight: 400;
-  color: #FBF3DA;
-}
 
-nav > ul > li > a:hoover {
-  padding: 0 40px;
-  font-weight: 400;
-  color: #FFCE45;
-}
-
-nav > ul > li > a:active {
-  padding: 0 40px;
-  font-weight: 400;
-  color: #FBF3DA;
-}
 
 footer
 {
