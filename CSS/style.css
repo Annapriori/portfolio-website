@@ -17,6 +17,8 @@
 /* Page template B */
 
 /* Media Queries */
+
+
 /* Layout styling */
 /*
 Colors used:
@@ -28,17 +30,12 @@ Text (light): #FBF3DA
 
 */
 
-#hero {
+#hero span {
   background-color: #8DB6B9;
    margin: 0;
-  display: inline-block;
+  display: block;
   width: 100%;
-}
-#hero h1 {
-  text-align: center; /* Centers text */
-}
-#hero h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
 }
 
 #contact {
@@ -46,82 +43,6 @@ Text (light): #FBF3DA
     display: inline-block;
     text-align: center;
     width: 100%;
-}
-img {
-  width: 100%;
-}
-a {
-  color: #FBF3DA;
-  text-decoration: none; /* No underlining */
-}
-
-a:visited { /* visited link */
-  color: #FBF3DA;
-}
-a:hover {
-  color: #FFCE45;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
-
-a:focus {
-  color: #FFCE45;
-  text-decoration: underline;
-}
-* {
-  box-sizing: border-box;
-}
-html {scroll-behavior: smooth;
-}
-body {
-  background-color: #8DB6B9;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #1B2021;
-}
-
-h1 {
-  text-align: center;
-  line-height: 1.4;
-  font-size: 32px;
-  font-weight: 700;
-}
-
-h2, h3 {
-  text-align: center;
-  line-height: 1.4;
-  font-size: 24px;
-  font-weight: 700;
-}
-p {
-  text-align: justify;
-line-height: 1.4;
-font-size: 20px;
-font-weight: 300;
-}
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav > ul > li > a {
-  padding: 0 40px;
-  font-weight: 400;
-  color: #FBF3DA;
-  display: inline-block;
-}
-
-nav > ul > li > a:hoover {
-  padding: 0 40px;
-  font-weight: 400;
-  color: #FFCE45;
-}
-
-nav > ul > li > a:active {
-  padding: 0 40px;
-  font-weight: 400;
-  color: #FBF3DA;
 }
 .intro {text-align: center;}
 
@@ -182,15 +103,93 @@ nav > ul > li > a:active {
   background-color: #FFCE45;
   color: #555555;
 }
+img {
+  width: 100%;
+}
+a {
+  color: #FBF3DA;
+  text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+  color: #FBF3DA;
+}
+a:hover {
+  color: #FFCE45;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+a:focus {
+  color: #FFCE45;
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+html {scroll-behavior: smooth;
+}
+body {
+  background-color: #8DB6B9;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #1B2021;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2, h3 {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 24px;
+  font-weight: 700;
+}
+p {
+  text-align: justify;
+line-height: 1.4;
+font-size: 20px;
+font-weight: 300;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FBF3DA;
+}
+
+nav > ul > li > a:hoover {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FFCE45;
+}
+
+nav > ul > li > a:active {
+  padding: 0 40px;
+  font-weight: 400;
+  color: #FBF3DA;
+}
+
 main {
   padding-top: 188px;
 }
 
 header
 {
+    text-align: center;
   position: fixed;
 box-shadow: 0px 2px 7px 0px rgba(85, 85, 85, 1);
-  text-align: center;
   background-color: #555555;
   color: #FBF3DA;
   padding: 10px 0;
@@ -209,4 +208,38 @@ footer
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #FBF3DA;
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+  text-align: unset;
+  padding: 53px 0 13px;
+}
+body {
+  font-size: 18px;
+}
+nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
