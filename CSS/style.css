@@ -37,6 +37,13 @@ Text (light): #FBF3DA
   width: 100%;
   text-align: center;
 }
+#about-page
+#project-page
+#index-page
+
+#header {
+  text-align: center;
+}
 
 #contact {
   list-style-type: none;
@@ -46,70 +53,7 @@ Text (light): #FBF3DA
 }
 [class*="col-"] {
   float: left;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.intro {text-align: center;}
-
-.copyright {text-align: center;
-}
-
-.logo {
-  max-width: 52px;
-}
-.icon {
-  max-width: 32px;
-}
-.container {
-  padding: 0 15px;
-  text-align: center;
-}
-.column {
-  padding: 0 15px;
-}
-.row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
-}
-.intro {
-  padding: 0 15px;
-
-}
-.button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #4C4C6D;
-  color: #FBF3DA; /* needed to override the default link color */
-  font-weight: 400;
   padding: 10px;
-  border-radius: 6px;
-  transition: 0.2s opacity;
-}
-.button:active {
-  background-color: #FFCE45;
-  color: #555555;
-  text-decoration: none;
-}
-.button:hover {
-  background-color: #FFCE45;
-  color: #555555;
-  text-decoration: none;
-}
-
-.button.contact {
-  background-color: #8DB6B9;
-  color: #555555;
-  text-transform: uppercase;
-}
-
-.button.contact:hover {
-  background-color: #FFCE45;
-  color: #555555;
-}
-.button.contact:active {
-  background-color: #FFCE45;
-  color: #555555;
 }
 img {
   width: 100%;
@@ -164,16 +108,18 @@ h3 {
   font-size: 20px;
   font-weight: 400;
 }
+
 p {
-  text-align: center;
+text-align: center;
 line-height: 1.4;
 font-size: 20px;
 font-weight: 300;
 }
+
 nav > ul {
-    
+
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
 }
 nav > ul > li {
   display: inline-block;
@@ -211,8 +157,6 @@ box-shadow: 0px 2px 7px 0px rgba(85, 85, 85, 1);
   width: 100%;
 }
 
-
-
 footer
 {
   box-shadow: 0px -2px 7px 0px rgba(76, 76, 109, 1);
@@ -224,10 +168,99 @@ footer
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #FBF3DA;
 }
+.icons {
+  display: inline-block;
+padding: 10 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.intro {text-align: center;}
+
+.copyright {text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.logo {
+  max-width: 52px;
+}
+
+.phone {
+  max-width: 250px;
+}
+.icon {
+  max-width: 32px;
+}
+.container {
+  padding: 30px;
+  text-align: center;
+}
+.column {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+.intro {
+  padding: 0 15px;
+}
+
+  .slogan {
+      padding: 20px;
+    text-align: center;
+      line-height: 0;
+      font-size: 20px;
+      font-weight: 200;
+      font-style: italic;
+}
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #4C4C6D;
+  color: #FBF3DA; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.2s opacity, 0.5s background-color, 0.4s font-size;
+}
+.button:active {
+  background-color: #FFCE45;
+  color: #555555;
+  text-decoration: none;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #FFCE45;
+  color: #555555;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.button.contact {
+  background-color: #8DB6B9;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+.button.contact:hover {
+  background-color: #FFCE45;
+  color: #555555;
+}
+.button.contact:active {
+  background-color: #FFCE45;
+  color: #555555;
+}
+
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+#about-page h3 { margin-top: 0;}
   header {
   text-align: unset;
   padding: 99px 0 13px;
@@ -241,14 +274,25 @@ nav {
     margin-top: 4px;
   }
   .col-md-6 {
-  width: 50%;
+    width: 50%;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 60%;}
+    .col-lg-5 {
+      width: 40%;}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 /* ==============================
 X-large devices (1440px or larger)
@@ -261,3 +305,28 @@ Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
 }
+
+@keyframes color-change {
+  from {fill: #8DB6B9;}
+  to {fill: #FBF3DA;}
+}
+.st1 {
+  animation-duration: 4s;
+  animation-name: color-change, phone-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes phone-move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+/* @keyframes device-move {
+  from {transform: translate(0,20px);}
+  to {transform: translate(10px,20px);}
+}*/
