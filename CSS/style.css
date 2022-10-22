@@ -44,6 +44,14 @@ Text (light): #FBF3DA
     text-align: center;
     width: 100%;
 }
+[class*="col-"] {
+  float: left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .intro {text-align: center;}
 
 .copyright {text-align: center;
@@ -144,19 +152,26 @@ h1 {
   font-weight: 700;
 }
 
-h2, h3 {
+h2{
   text-align: center;
-  line-height: 1.4;
+  line-height: 0;
   font-size: 24px;
   font-weight: 700;
 }
+h3 {
+  text-align: center;
+  line-height: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
 p {
-  text-align: justify;
+  text-align: center;
 line-height: 1.4;
 font-size: 20px;
 font-weight: 300;
 }
 nav > ul {
+    
   list-style-type: none;
   padding: 0;
 }
@@ -215,7 +230,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
   text-align: unset;
-  padding: 53px 0 13px;
+  padding: 99px 0 13px;
 }
 body {
   font-size: 18px;
@@ -225,7 +240,10 @@ nav {
     float: right;
     margin-top: 4px;
   }
+  .col-md-6 {
+  width: 50%;
 }
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
