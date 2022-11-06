@@ -178,10 +178,11 @@ header {
 .logo {
   width: 85px;
   float: left;
+  margin: 24px;
 }
 
 .navigation li a {
-  padding: 10px 10px
+  padding: 10px 10px;
 }
 
 
@@ -194,11 +195,10 @@ header {
 
 nav>ul {
   list-style-type: none;
-  padding: 10px;
+  padding: 0px;
+  margin: 0;
 }
-nav>ul>li {
-  display: inline-block;
-}
+
 nav>ul>li>a {
   padding: 0 40px;
   font-weight: 400;
@@ -215,6 +215,34 @@ nav>ul>li>a:active {
   color: #FBF3DA;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+
+.navtoggle li .icon {
+  padding-right: 0;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 30px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+  margin: 24px;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #8DB6B9;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 /* Main*/
 main {
   padding-top: 100px;
@@ -226,6 +254,8 @@ main {
   width: 100%;
   text-align: center;
 }
+.anna {margin-top: 100px;}
+
 .slogan {
   line-height: 1.4;
   font-size: 24px;
@@ -239,6 +269,7 @@ main {
   text-align: center;
     padding: 30 15px;
   }
+
   .skills {
     text-align: center;
   }
@@ -307,7 +338,18 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-
+  nav > ul {
+  margin: 1em 0;
+}
+  nav>ul>li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
   .col-md-6 {
     width: 50%;
   }
@@ -325,7 +367,7 @@ Medium devices (640px and larger)
     margin-right: auto;
   }
 }
-
+ /*???makes my logo huge
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -363,11 +405,15 @@ X-large devices (1440px or larger)
     margin-top: 150px;
   }
 }
+/*logo {min-width: 641px;} - makes my logo huge!*/
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {}
+
+/*logo {min-width: 641px;} - makes my logo huge!*/
+
 
 /* ==============================
 animation

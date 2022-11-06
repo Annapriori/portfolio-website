@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <script src="https://kit.fontawesome.com/1999a44d64.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coin_Anna_Eivör_UI_designer_</title>
@@ -18,7 +19,7 @@
     <div class="container">
 
 
-
+<div class="navtoggle" id="myNavtoggle">
 
       <a href="index.html">
         <img src="img/logo.svg" alt="Logo" class="logo">
@@ -32,11 +33,12 @@
         <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
 
-
+</div>
     </div>
 
   </header>
@@ -280,7 +282,7 @@
             <p>Correcting the user-flow, making additional screens in order to reduce a cognitive load, choosing the key-flow for screen development.</p>
           </span>
           <p>Experience and further plans:</p>
-          <p>Practice more layout and the grid implementation, white space incorporation, design hierarchy and UI element's grading.</p></span>
+          <span><p>Practice more layout and the grid implementation, white space incorporation, design hierarchy and UI element's grading.</p></span>
         </div>
       </div>
     </div>
@@ -374,6 +376,10 @@
 
 
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 
