@@ -11,11 +11,11 @@
 /* Layout styling */
 /*
 Colors used:
-Primary Color (blue): #8DB6B9;
-Secondary Color (dark gray): #555555;
-Accent Color (dark velvet): #4C4C6D; yellow (hoover state) FFCE45;
-Text (dark): #1B2021
-Text (light): #FBF3DA
+Primary Color (blue): #CADDD3;
+Secondary Color (brown): #CBC0AA;
+Accent Color (light yellow): #EFE6B2; yellow (hoover state) FFCE45;
+Text (dark): #2D3337
+                                                 Text (light): #FBF3DA
 
 */
 
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background-color: #8DB6B9;
+  background-color: #CADDD3;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -37,7 +37,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #1B2021;
+  color: #2D3337;
 }
 
 img {
@@ -48,24 +48,24 @@ padding-top:40px;
 }
 
 a {
-  color: #FBF3DA;
+  color: #2D3337;
   text-decoration: none;
   /* No underlining */
 }
 
 a:visited {
   /* visited link */
-  color: #FBF3DA;
+  color: #2D3337;
 }
 
 a:hover {
-  color: #FFCE45;
+  color: #CADDD3;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:focus {
-  color: #FFCE45;
+  color: #CADDD3;
   text-decoration: underline;
 }
 
@@ -106,14 +106,18 @@ p {
   font-size: 20px;
   font-weight: 300;
 }
+p1 {
+  font-weight: 700;
+}
 /* Global Tags end */
 
 /* Layout Tags */
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #4C4C6D;
-  color: #FBF3DA;
+  background-color: #EFE6B2;
+  color: #2D3337;
+border: 2px solid dimgray;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -122,33 +126,33 @@ p {
 }
 
 .button:active {
-  background-color: #FFCE45;
-  color: #555555;
+  background-color: #EFE6B2;
+  color: #2D3337;
   text-decoration: none;
 }
 
 .button:hover {
   cursor: pointer;
-  background-color: #FFCE45;
-  color: #555555;
+  background-color: #CADDD3;
+  color: #2D3337;
   text-decoration: none;
   opacity: 0.9;
 }
 
 .button.contact {
-  background-color: #8DB6B9;
-  color: #555555;
+  background-color: #2D3337;
+  color: #EFE6B2;
   text-transform: uppercase;
 }
 
 .button.contact:hover {
-  background-color: #FFCE45;
-  color: #555555;
+  background-color: #EFE6B2;
+  color: #2D3337;
 }
 
 .button.contact:active {
-  background-color: #FFCE45;
-  color: #555555;
+  background-color: #EFE6B2;
+  color: #2D3337;
 }
 .container {
   padding: 30px;
@@ -170,9 +174,9 @@ p {
 /* Header*/
 header {
   position: fixed;
-  box-shadow: 0px 2px 7px 0px rgba(85, 85, 85, 1);
-  background-color: #555555;
-  color: #FBF3DA;
+  box-shadow: 0px 2px 7px 0px rgba(45, 51, 55, 1);
+  background-color: #CBC0AA;
+  color: #2D3337;
   padding: 10px 0;
   width: 100%;
   z-index: 4;
@@ -205,17 +209,17 @@ nav>ul {
 nav>ul>li>a {
   padding: 0 40px;
   font-weight: 400;
-  color: #FBF3DA;
+  color: #2D3337;
 }
 nav>ul>li>a:hoover {
   padding: 0 40px;
   font-weight: 400;
-  color: #FFCE45;
+  color: #2D3337;
 }
 nav>ul>li>a:active {
   padding: 0 40px;
   font-weight: 400;
-  color: #FBF3DA;
+  color: #2D3337;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -241,7 +245,7 @@ nav>ul>li>a:active {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #8DB6B9;
+  border-top: 1px solid #CADDD3;
 }
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
@@ -251,7 +255,7 @@ main {
   padding-top: 100px;
 }
 #hero span {
-  background-color: #8DB6B9;
+  background-color: #CADDD3;
   margin: 0;
   display: block;
   width: 100%;
@@ -279,10 +283,10 @@ main {
 
 /* Footer*/
 footer {
-  box-shadow: 0px -2px 7px 0px rgba(76, 76, 109, 1);
+  box-shadow: 0px -2px 7px 0px rgba(45, 51, 55, 1);
   text-align: center;
-  background-color: #4C4C6D;
-  color: #FBF3DA;
+  background-color: #CBC0AA;
+  color: #2D3337;
 }
 
 .animation {
@@ -432,11 +436,11 @@ animation
 ================================= */
 @keyframes color-change {
   from {
-    fill: #8DB6B9;
+    fill: #CADDD3;
   }
 
   to {
-    fill: #FBF3DA;
+    fill: #EFE6B2;
   }
 }
 

@@ -1,32 +1,50 @@
-<svg width="969" height="969" viewBox="0 0 969 969" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="484.5" cy="484.5" r="479.5" fill="white" stroke="#4C4C6D" stroke-width="10"/>
-<line x1="384.799" y1="286.141" x2="185.141" y2="480.201" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="10" y1="-10" x2="288.429" y2="-10" transform="matrix(0.717088 0.696983 0.696983 -0.717088 584 272)" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="395" y1="290" x2="395" y2="479" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="290.911" y1="380.912" x2="383.912" y2="380.089" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="584.911" y1="380.912" x2="677.912" y2="380.089" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<path d="M388.588 283.912L488.5 377.5" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<path d="M489.588 283.912L583.182 371.182" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<path d="M691.588 481.912L784 582" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<path d="M691.588 584.912L789 684" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="489.904" y1="290.095" x2="488.095" y2="479.096" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="583.952" y1="290.048" x2="583.048" y2="479.048" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="184.047" y1="482.952" x2="185" y2="683.953" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="189.133" y1="483.499" x2="247.499" y2="537.867" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="519.787" y1="680.971" x2="649.971" y2="580.213" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="10" y1="-10" x2="174.621" y2="-10" transform="matrix(-0.790808 -0.612064 -0.612064 0.790808 650 695)" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="517.483" y1="579.084" x2="583.084" y2="484.517" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="10" y1="-10" x2="125.093" y2="-10" transform="matrix(-0.56998 -0.821659 -0.821659 0.56998 647 593)" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="188.318" y1="574.253" x2="243.252" y2="540.682" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="188.318" y1="684.253" x2="243.252" y2="650.682" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="294" y1="483" x2="294" y2="684" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="395" y1="483" x2="395" y2="684" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="691" y1="483" x2="691" y2="684" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="397.929" y1="680.798" x2="486.798" y2="481.071" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="693.817" y1="584.82" x2="783.82" y2="583.183" stroke="#8DB6B9" stroke-width="20" stroke-linecap="round"/>
-<line x1="557.013" y1="578.095" x2="584.095" y2="598.987" stroke="#8DB6B9" stroke-width="10" stroke-linecap="round"/>
-<line x1="5" y1="-5" x2="39.2041" y2="-5" transform="matrix(-0.791782 0.610803 0.610803 0.791782 619 579)" stroke="#8DB6B9" stroke-width="10" stroke-linecap="round"/>
-<line x1="572" y1="569" x2="584" y2="578" stroke="#8DB6B9" stroke-width="10" stroke-linecap="round"/>
-<line x1="5" y1="-5" x2="20" y2="-5" transform="matrix(-0.8 0.6 0.6 0.8 604 570)" stroke="#8DB6B9" stroke-width="10" stroke-linecap="round"/>
-<rect x="585.426" y="536" width="20" height="20" rx="2" transform="rotate(46.1635 585.426 536)" fill="#8DB6B9"/>
+<svg width="1009" height="1009" viewBox="0 0 1009 1009" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_213_750)">
+<circle cx="504.5" cy="504.5" r="484.5" fill="url(#paint0_radial_213_750)"/>
+</g>
+<line x1="404.799" y1="306.141" x2="205.141" y2="500.201" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="10" y1="-10" x2="288.429" y2="-10" transform="matrix(0.717088 0.696983 0.696983 -0.717088 604 292)" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="415" y1="310" x2="415" y2="499" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="310.911" y1="400.912" x2="403.912" y2="400.089" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="604.911" y1="400.912" x2="697.912" y2="400.089" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<path d="M540 596.5C561.833 567.333 605.4 508.3 605 505.5L667 600L600 650L540 596.5Z" fill="#F8EFB2"/>
+<path d="M408.588 303.912L508.5 397.5" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<path d="M509.588 303.912L603.182 391.182" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<path d="M711.588 501.912L804 602" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<path d="M711.588 604.912L809 704" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="509.904" y1="310.095" x2="508.095" y2="499.096" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="603.952" y1="310.048" x2="603.048" y2="499.048" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="204.047" y1="502.952" x2="204.999" y2="703.953" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="209.133" y1="503.499" x2="267.498" y2="557.867" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="539.787" y1="700.971" x2="669.971" y2="600.213" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="10" y1="-10" x2="174.621" y2="-10" transform="matrix(-0.790808 -0.612064 -0.612064 0.790808 670 715)" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="537.483" y1="599.084" x2="603.084" y2="504.517" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="10" y1="-10" x2="125.093" y2="-10" transform="matrix(-0.56998 -0.821659 -0.821659 0.56998 667 613)" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="208.318" y1="594.253" x2="263.252" y2="560.682" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="208.318" y1="704.253" x2="263.252" y2="670.682" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="314" y1="503" x2="314" y2="704" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="415" y1="503" x2="415" y2="704" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="711" y1="503" x2="711" y2="704" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="417.929" y1="700.798" x2="506.798" y2="501.071" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="713.817" y1="604.82" x2="803.82" y2="603.183" stroke="#302820" stroke-width="20" stroke-linecap="round"/>
+<line x1="577.013" y1="598.095" x2="604.095" y2="618.987" stroke="#302820" stroke-width="10" stroke-linecap="round"/>
+<line x1="5" y1="-5" x2="39.2041" y2="-5" transform="matrix(-0.791782 0.610803 0.610803 0.791782 639 599)" stroke="#302820" stroke-width="10" stroke-linecap="round"/>
+<line x1="592" y1="589" x2="604" y2="598" stroke="#302820" stroke-width="10" stroke-linecap="round"/>
+<line x1="5" y1="-5" x2="20" y2="-5" transform="matrix(-0.8 0.6 0.6 0.8 624 590)" stroke="#302820" stroke-width="10" stroke-linecap="round"/>
+<defs>
+<filter id="filter0_d_213_750" x="0" y="0" width="1009" height="1009" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.188235 0 0 0 0 0.156863 0 0 0 0 0.12549 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_213_750"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_213_750" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_213_750" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(504.5 504.5) rotate(90) scale(484.5)">
+<stop stop-color="#FDF1B0"/>
+<stop offset="1" stop-color="#BDD2C7"/>
+</radialGradient>
+</defs>
 </svg>
