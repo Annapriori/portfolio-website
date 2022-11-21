@@ -283,7 +283,7 @@ main {
 
 /* Footer*/
 footer {
-  box-shadow: 0px -2px 7px 0px rgba(45, 51, 55, 1);
+  box-shadow: 0px 2px 7px 0px rgba(45, 51, 55, 1);
   text-align: center;
   background-color: #CBC0AA;
   color: #2D3337;
