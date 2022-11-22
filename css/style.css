@@ -201,12 +201,13 @@ header {
   z-index: 4;
 }
 
+
 .logo {
   width: 85px;
   float: left;
-  margin: 24px;
+padding-bottom: 20px;
+    margin-top:-5px;
 }
-
 
 nav>ul {
   list-style-type: none;
