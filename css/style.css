@@ -306,8 +306,16 @@ footer {
 }
 
 .footernav {
-  display: inline-block;
-  padding: 10 15px;
+  margin-bottom: 20px
+}
+
+.footernav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footernav ul li {
+      display: inline-block;
 }
 
 .footernav li a {
