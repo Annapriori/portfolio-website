@@ -188,17 +188,6 @@ header {
   margin: 24px;
 }
 
-.navigation li a {
-  padding: 10px 10px;
-}
-
-
-#about-page #project-page #index-page #contact {
-  list-style-type: none;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-}
 
 nav>ul {
   list-style-type: none;
@@ -211,7 +200,7 @@ nav>ul>li>a {
   font-weight: 400;
   color: #2D3337;
 }
-nav>ul>li>a:hoover {
+nav>ul>li>a:hover {
   padding: 0 40px;
   font-weight: 400;
   color: #2D3337;
