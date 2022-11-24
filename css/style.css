@@ -24,23 +24,23 @@ Text (dark): #2D3337
   box-sizing: border-box;
 }
 @font-face {
-   font-family: 'Oswald',sans-serif;
+   font-family: 'AdventPro',sans-serif;
       font-weight: 400;
-    src: url('../oswald/Oswald-Regular.ttf') format('truetype');
+    src: url('../glory/Glory-Bold.ttf') format('truetype');
 
 }
 
 @font-face {
    font-family: 'Oswald';
       font-weight: 300;
-    src: url('../oswald/Oswald-Light.ttf') format('truetype');
+    src: url('../glory/Glory-Light.ttf') format('truetype');
 
 }
 
 @font-face {
    font-family: 'Oswald';
     font-weight: 700;
-    src: url('../oswald/Oswald-Bold.ttf') format('truetype');
+    src: url('../glory/Glory-Bold.ttf') format('truetype');
 
 }
 html {
@@ -138,7 +138,7 @@ p1 {
   color: #2D3337;
 border: 2px solid dimgray;
   /* needed to override the default link color */
-  font-weight: 400;
+  font-weight: 700;
   padding: 10px;
   border-radius: 6px;
   transition: 0.2s opacity, 0.5s background-color, 0.4s font-size;
@@ -217,17 +217,15 @@ nav>ul {
 
 nav>ul>li>a {
   padding: 0 20px;
-  font-weight: 400;
+  font-weight: 700;
   color: #2D3337;
 }
 nav>ul>li>a:hover {
-
-  font-weight: 400;
+  font-weight: 700;
   color: #2D3337;
 }
 nav>ul>li>a:active {
-
-  font-weight: 400;
+  font-weight: 700;
   color: #2D3337;
 }
 
