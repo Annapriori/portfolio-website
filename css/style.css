@@ -63,15 +63,6 @@ img {
   width: 100%;
 }
 
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom img {
-  transition: transform .5s ease;
-}
-
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
-  transform: scale(1.5);
-}
 
 .img-cnt img{
 padding-top:40px;
@@ -272,12 +263,59 @@ nav>ul>li>a:active {
 main {
   padding-top: 100px;
 }
+
 #hero span {
   background-color: #CADDD3;
   margin: 0;
   display: block;
   width: 100%;
   text-align: center;
+}
+/* (A) LIGHTBOX BACKGROUND */
+#lightbox {
+  /* (A1) COVERS FULLSCREEN */
+  position: fixed; z-index: 999;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+
+  /* (A2) BACKGROUND */
+  background: rgba(0, 0, 0, 0.5);
+
+  /* (A3) CENTER IMAGE ON SCREEN */
+  display: flex;
+  align-items: center;
+  align-items: center;
+
+  /* (A4) HIDDEN BY DEFAULT */
+  visibility: hidden;
+  opacity: 0;
+
+  /* (A5) SHOW/HIDE ANIMATION */
+  transition: opacity ease 0.4s;
+}
+
+/* (A6) TOGGLE VISIBILITY */
+#lightbox.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* (B) LIGHTBOX IMAGE */
+#lightbox img {
+  /* (B1) DIMENSIONS */
+  width: 50%;
+  height: auto;
+
+  /* (B2) IMAGE FIT */
+  /* contain | cover | fill | scale-down */
+  object-fit: cover;
+}
+
+/* (C) LIGHTBOX IMAGE - FULLSCREEN ALTERNATIVE */
+#lightbox img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 .anna {margin-top: 100px;}
 
