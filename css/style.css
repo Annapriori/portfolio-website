@@ -105,24 +105,17 @@ h2 {
   line-height: 1.5;
   font-size: 32px;
 }
-h3, h4 {
-  font-weight: 400;
-  line-height: 2;
-}
 h3 {
   font-size: 32px;
-
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 h4 {
-  font-size: 20px;
-}
-
-h5 {
-  text-align: center;
-  line-height: 0.5;
-  font-size: 20px;
-  font-weight: 300;
+  line-height: 1.4;
+   text-align: left;
+   font-size: 20px;
+   font-weight: 300;
 }
 
 p {
@@ -134,10 +127,7 @@ p {
 p1 {
   font-weight: 700;
 }
-p2 {
-   text-align: center;
-   font-size: 20px;
-}
+
 p3 {
    text-align: left;
    font-size: 20px;
