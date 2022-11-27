@@ -143,6 +143,7 @@ border: 2px solid dimgray;
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
+  margin-top: 25px;
   border-radius: 6px;
   transition: 0.2s opacity, 0.5s background-color, 0.4s font-size;
 }
@@ -440,11 +441,18 @@ X-large devices (1440px or larger)
   }
 
   .buttonV {
-    margin-top: 150px;
+    margin-top: 163px;
   }
 
   .buttonVG {
-    margin-top: 150px;
+    margin-top: 127px;
+  }
+
+  .buttonVGG {
+    margin-top: 154px;
+  }
+  .buttonVGV {
+    margin-top: 147px;
   }
 }
 /*logo {min-width: 641px;} - makes my logo huge!*/
