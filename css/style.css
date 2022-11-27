@@ -156,7 +156,7 @@ border: 2px solid dimgray;
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
   border-radius: 6px;
   transition: 0.2s opacity, 0.5s background-color, 0.4s font-size;
 }
