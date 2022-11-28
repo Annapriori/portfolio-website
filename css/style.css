@@ -25,6 +25,7 @@ Text (dark): #2D3337
 * {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "AdventPro", sans-serif;
   font-weight: 400;
@@ -42,6 +43,7 @@ Text (dark): #2D3337
   font-weight: 700;
   src: url("../glory/Glory-Bold.ttf") format("truetype");
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -103,6 +105,7 @@ h2 {
   line-height: 1.5;
   font-size: 32px;
 }
+
 h3 {
   font-size: 32px;
   font-weight: 400;
@@ -116,6 +119,11 @@ h4 {
   font-size: 20px;
   font-weight: 300;
 }
+h5 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
 
 p {
   line-height: 1.4;
@@ -123,6 +131,7 @@ p {
   font-weight: 300;
   text-align: center;
 }
+
 p1 {
   font-weight: 700;
 }
@@ -131,10 +140,9 @@ p3 {
   text-align: left;
   font-size: 20px;
 }
-p4 {
-  text-align: justify;
-  font-size: 20px;
-}
+
+
+
 /* Global Tags end */
 
 /* Layout Tags */
@@ -181,6 +189,7 @@ p4 {
   background-color: #efe6b2;
   color: #2d3337;
 }
+
 .container {
   padding: 30px;
 }
@@ -193,6 +202,7 @@ p4 {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
 }
+
 /* Layout Tags end*/
 
 /* Specific sections and elements as per structure */
@@ -214,22 +224,24 @@ header {
   margin-top: -5px;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0px;
   margin: 0;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 20px;
   font-weight: 700;
   color: #2d3337;
 }
-nav > ul > li > a:hover {
+
+nav>ul>li>a:hover {
   font-weight: 700;
   color: #2d3337;
 }
-nav > ul > li > a:active {
+
+nav>ul>li>a:active {
   font-weight: 700;
   color: #2d3337;
 }
@@ -250,17 +262,21 @@ nav > ul > li > a:active {
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle.responsive nav {
   padding: 147px 0 0;
 }
+
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
   border-top: 1px solid #caddd3;
 }
+
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
+
 /* Main*/
 main {
   padding-top: 100px;
@@ -375,18 +391,23 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-  nav > ul {
+
+  nav>ul {
     margin: 1em 0;
   }
-  nav > ul > li {
+
+  nav>ul>li {
     display: inline-block;
   }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
+
   .navtoggle li:last-child {
     display: none;
   }
+
   .navtoggle.responsive nav {
     padding: 0px 0 0;
   }
@@ -395,6 +416,7 @@ Medium devices (640px and larger)
     border-top: 1px solid transparent;
     padding: 0px 0;
   }
+
   .col-md-6 {
     width: 50%;
   }
@@ -412,6 +434,7 @@ Medium devices (640px and larger)
     margin-right: auto;
   }
 }
+
 /*???makes my logo huge
 /* ==============================
 Large devices (1024px or larger)
@@ -454,17 +477,18 @@ X-large devices (1440px or larger)
   .buttonVGG {
     margin-top: 154px;
   }
+
   .buttonVGV {
     margin-top: 147px;
   }
 }
+
 /*logo {min-width: 641px;} - makes my logo huge!*/
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
 
 /*logo {min-width: 641px;} - makes my logo huge!*/
 
