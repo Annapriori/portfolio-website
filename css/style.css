@@ -19,79 +19,77 @@ Text (dark): #2D3337
 
 */
 
+
+
 /* Global Tags */
 * {
   box-sizing: border-box;
 }
 @font-face {
-   font-family: 'AdventPro',sans-serif;
-      font-weight: 400;
-    src: url('../glory/Glory-Bold.ttf') format('truetype');
-
+  font-family: "AdventPro", sans-serif;
+  font-weight: 400;
+  src: url("../glory/Glory-Bold.ttf") format("truetype");
 }
 
 @font-face {
-   font-family: 'Oswald';
-      font-weight: 300;
-    src: url('../glory/Glory-Light.ttf') format('truetype');
-
+  font-family: "Oswald";
+  font-weight: 300;
+  src: url("../glory/Glory-Light.ttf") format("truetype");
 }
 
 @font-face {
-   font-family: 'Oswald';
-    font-weight: 700;
-    src: url('../glory/Glory-Bold.ttf') format('truetype');
-
+  font-family: "Oswald";
+  font-weight: 700;
+  src: url("../glory/Glory-Bold.ttf") format("truetype");
 }
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #CADDD3;
-  font-family: 'Oswald', sans-serif;
+  background-color: #caddd3;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
   font-weight: 300;
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #2D3337;
+  color: #2d3337;
 }
 
 img {
   width: 100%;
 }
 
-
-.img-cnt img{
-padding-top:40px;
+.img-cnt img {
+  padding-top: 40px;
 }
 
 a {
-  color: #2D3337;
+  color: #2d3337;
   text-decoration: none;
   /* No underlining */
 }
 
 a:visited {
   /* visited link */
-  color: #2D3337;
+  color: #2d3337;
 }
 
 a:hover {
-  color: #CADDD3;
+  color: #caddd3;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:focus {
-  color: #CADDD3;
+  color: #caddd3;
   text-decoration: underline;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   font-weight: 700;
 }
 
@@ -114,30 +112,28 @@ h3 {
 
 h4 {
   line-height: 1.4;
-   text-align: left;
-   font-size: 20px;
-   font-weight: 300;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 p {
   line-height: 1.4;
   font-size: 20px;
   font-weight: 300;
-   text-align:center;
+  text-align: center;
 }
 p1 {
   font-weight: 700;
 }
 
 p3 {
-   text-align: left;
-   font-size: 20px;
-
+  text-align: left;
+  font-size: 20px;
 }
 p4 {
-   text-align: justify;
-   font-size: 20px;
-
+  text-align: justify;
+  font-size: 20px;
 }
 /* Global Tags end */
 
@@ -145,9 +141,9 @@ p4 {
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #EFE6B2;
-  color: #2D3337;
-border: 2px solid dimgray;
+  background-color: #efe6b2;
+  color: #2d3337;
+  border: 2px solid dimgray;
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
@@ -157,33 +153,33 @@ border: 2px solid dimgray;
 }
 
 .button:active {
-  background-color: #EFE6B2;
-  color: #2D3337;
+  background-color: #efe6b2;
+  color: #2d3337;
   text-decoration: none;
 }
 
 .button:hover {
   cursor: pointer;
-  background-color: #CADDD3;
-  color: #2D3337;
+  background-color: #caddd3;
+  color: #2d3337;
   text-decoration: none;
   opacity: 0.9;
 }
 
 .button.contact {
-  background-color: #2D3337;
-  color: #EFE6B2;
+  background-color: #2d3337;
+  color: #efe6b2;
   text-transform: uppercase;
 }
 
 .button.contact:hover {
-  background-color: #EFE6B2;
-  color: #2D3337;
+  background-color: #efe6b2;
+  color: #2d3337;
 }
 
 .button.contact:active {
-  background-color: #EFE6B2;
-  color: #2D3337;
+  background-color: #efe6b2;
+  color: #2d3337;
 }
 .container {
   padding: 30px;
@@ -199,52 +195,49 @@ border: 2px solid dimgray;
 }
 /* Layout Tags end*/
 
-
-
 /* Specific sections and elements as per structure */
 /* Header*/
 header {
   position: fixed;
   box-shadow: 0px 2px 7px 0px rgba(45, 51, 55, 1);
-  background-color: #CBC0AA;
-  color: #2D3337;
+  background-color: #cbc0aa;
+  color: #2d3337;
   padding: 10px 0;
   width: 100%;
   z-index: 4;
 }
 
-
 .logo {
   width: 85px;
   float: left;
-padding-bottom: 20px;
-    margin-top:-5px;
+  padding-bottom: 20px;
+  margin-top: -5px;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0px;
   margin: 0;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 20px;
   font-weight: 700;
-  color: #2D3337;
+  color: #2d3337;
 }
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   font-weight: 700;
-  color: #2D3337;
+  color: #2d3337;
 }
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   font-weight: 700;
-  color: #2D3337;
+  color: #2d3337;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
-
 
 .navtoggle li .icon {
   padding-right: 0;
@@ -259,14 +252,13 @@ nav>ul>li>a:active {
 }
 .navtoggle.responsive nav {
   padding: 147px 0 0;
-
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #CADDD3;
+  border-top: 1px solid #caddd3;
 }
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 /* Main*/
@@ -275,14 +267,16 @@ main {
 }
 
 #hero span {
-  background-color: #CADDD3;
+  background-color: #caddd3;
   margin: 0;
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.anna {margin-top: 100px;}
+.anna {
+  margin-top: 100px;
+}
 
 .slogan {
   line-height: 1.4;
@@ -296,25 +290,27 @@ main {
 
 .intro {
   text-align: center;
-    padding: 30 15px;
-  }
+  padding: 30 15px;
+}
 
-  .skills {
-    text-align: center;
-  }
+.skills {
+  text-align: center;
+}
 
-  .gif {display: block;
+.gif {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  height: 20%;  }
+  height: 20%;
+}
 
 /* Footer*/
 footer {
   box-shadow: 0px -2px 7px 0px rgba(45, 51, 55, 1);
   text-align: center;
-  background-color: #CBC0AA;
-  color: #2D3337;
+  background-color: #cbc0aa;
+  color: #2d3337;
 }
 
 .animation {
@@ -326,20 +322,20 @@ footer {
 }
 
 .footernav {
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .footernav ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .footernav ul li {
-      display: inline-block;
+  display: inline-block;
 }
 
 .footernav li a {
-  padding: 10px 10px
+  padding: 10px 10px;
 }
 
 .icon {
@@ -353,9 +349,7 @@ footer {
   font-style: italic;
 }
 
-
 /* Specific sections and elements as per structure end*/
-
 
 /* Media Queries and Animation */
 
@@ -382,25 +376,25 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
   nav > ul {
-  margin: 1em 0;
-}
-  nav>ul>li {
+    margin: 1em 0;
+  }
+  nav > ul > li {
     display: inline-block;
   }
   .navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-.navtoggle li:last-child {
-  display: none;
-}
-.navtoggle.responsive nav{
-padding: 0px 0 0;
-}
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  .navtoggle.responsive nav {
+    padding: 0px 0 0;
+  }
 
-.navtoggle.responsive li {
-  border-top: 1px solid transparent;
-  padding: 0px 0;
-}
+  .navtoggle.responsive li {
+    border-top: 1px solid transparent;
+    padding: 0px 0;
+  }
   .col-md-6 {
     width: 50%;
   }
@@ -418,7 +412,7 @@ padding: 0px 0 0;
     margin-right: auto;
   }
 }
- /*???makes my logo huge
+/*???makes my logo huge
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -432,11 +426,11 @@ Large devices (1024px or larger)
   }
 
   .container {
-   max-width: 1200px;
-   margin-left: auto;
-   margin-right: auto;
-     padding: 30px 0px;
- }
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+  }
 }
 
 /* ==============================
@@ -469,21 +463,21 @@ X-large devices (1440px or larger)
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+}
 
 /*logo {min-width: 641px;} - makes my logo huge!*/
-
 
 /* ==============================
 animation
 ================================= */
 @keyframes color-change {
   from {
-    fill: #CADDD3;
+    fill: #caddd3;
   }
 
   to {
-    fill: #EFE6B2;
+    fill: #efe6b2;
   }
 }
 
