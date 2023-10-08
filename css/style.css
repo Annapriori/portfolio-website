@@ -11,11 +11,12 @@
 /* Layout styling */
 /*
 Colors used:
-Primary Color (blue): #CADDD3;
+Primary Color (blue): #CADDD3;  A3B0A6
 Secondary Color (brown): #CBC0AA;
-Accent Color (light yellow): #EFE6B2; yellow (hoover state) FFCE45;
+Accent Color (light yellow): #EFE6B2;   yellow (hoover state) FFCE45; F2EBC1
 Text (dark): #2D3337
                                                  Text (light): #FBF3DA
+                                                 background: linear-gradient(0.25turn, #caddd3, #ebf8e1, #efe6b2);
 
 */
 
@@ -49,7 +50,9 @@ html {
 }
 
 body {
-  background-color: #caddd3;
+  background-image: url("https://annaeivor.com/files/fishbackground.png"), linear-gradient(0.25turn, #caddd3, #ebf8e1, #efe6b2);
+  background-repeat: space;
+  
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -62,11 +65,13 @@ body {
 
 img {
   width: 100%;
+  
 }
 
 .img-cnt img {
   padding-top: 40px;
 }
+
 
 a {
   color: #2d3337;
@@ -110,7 +115,7 @@ h3 {
   font-size: 32px;
   font-weight: 400;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 h4 {
@@ -124,6 +129,12 @@ h5 {
   text-align: center;
   font-size: 20px;
   font-weight: 700;
+}
+h6 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
 }
 
 p {
@@ -169,15 +180,15 @@ p3 {
 
 .button:hover {
   cursor: pointer;
-  background-color: #caddd3;
+  background-color: #BDD2C7;
   color: #2d3337;
   text-decoration: none;
   opacity: 0.9;
 }
 
 .button.contact {
-  background-color: #2d3337;
-  color: #efe6b2;
+  background-color: #BDD2C7;
+  color: #2d3337;
   text-transform: uppercase;
 }
 
@@ -211,7 +222,7 @@ p3 {
 header {
   position: fixed;
   box-shadow: 0px 2px 7px 0px rgba(45, 51, 55, 1);
-  background-color: #cbc0aa;
+  background: linear-gradient(0.25turn, #caddd3, #ebf8e1, #efe6b2);
   color: #2d3337;
   padding: 10px 0;
   width: 100%;
@@ -284,7 +295,7 @@ main {
 }
 
 #hero span {
-  background-color: #caddd3;
+  background-color: transparent;
   margin: 0;
   display: block;
   width: 100%;
@@ -326,7 +337,7 @@ main {
 footer {
   box-shadow: 0px -2px 7px 0px rgba(45, 51, 55, 1);
   text-align: center;
-  background-color: #cbc0aa;
+  background: linear-gradient(0.25turn, #caddd3, #ebf8e1, #efe6b2);
   color: #2d3337;
 }
 
@@ -379,6 +390,7 @@ Medium devices (640px and larger)
   }
 
   header {
+    background: linear-gradient(0.25turn, #caddd3, #ebf8e1, #efe6b2);
     text-align: unset;
     padding: 10px 0;
   }
@@ -498,11 +510,11 @@ animation
 ================================= */
 @keyframes color-change {
   from {
-    fill: #caddd3;
+    fill: #BDD2C7;
   }
 
   to {
-    fill: #efe6b2;
+    fill: #FDF1B0;
   }
 }
 
